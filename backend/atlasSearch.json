@@ -1,0 +1,107 @@
+{
+  "name": "geolink_autocomplete",
+  "type": "search",
+  "definition": {
+    "analyzer": "lucene.standard",
+    "searchAnalyzer": "lucene.standard",
+    "mappings": {
+      "dynamic": false,
+      "fields": {
+        "name": [
+          {
+            "type": "autocomplete",
+            "tokenization": "edgeGram",
+            "minGrams": 2,
+            "maxGrams": 15,
+            "foldDiacritics": true
+          },
+          {
+            "type": "string",
+            "analyzer": "lucene.standard"
+          }
+        ],
+        "capital": [
+          {
+            "type": "autocomplete",
+            "tokenization": "edgeGram",
+            "minGrams": 2,
+            "maxGrams": 15,
+            "foldDiacritics": true
+          }
+        ],
+        "isoCode": [
+          {
+            "type": "autocomplete",
+            "tokenization": "edgeGram",
+            "minGrams": 2,
+            "maxGrams": 3
+          }
+        ],
+        "region": [
+          {
+            "type": "string",
+            "analyzer": "lucene.keyword"
+          }
+        ],
+        "isActive": [
+          {
+            "type": "boolean"
+          }
+        ],
+        "relations": {
+          "type": "embeddedDocuments",
+          "dynamic": false,
+          "fields": {
+            "targetCountryName": [
+              {
+                "type": "autocomplete",
+                "tokenization": "edgeGram",
+                "minGrams": 2,
+                "maxGrams": 15,
+                "foldDiacritics": true
+              }
+            ],
+            "type": [
+              {
+                "type": "string",
+                "analyzer": "lucene.keyword"
+              }
+            ],
+            "status": [
+              {
+                "type": "string",
+                "analyzer": "lucene.keyword"
+              }
+            ]
+          }
+        },
+        "events": {
+          "type": "embeddedDocuments",
+          "dynamic": false,
+          "fields": {
+            "title": [
+              {
+                "type": "autocomplete",
+                "tokenization": "edgeGram",
+                "minGrams": 2,
+                "maxGrams": 20,
+                "foldDiacritics": true
+              }
+            ],
+            "type": [
+              {
+                "type": "string",
+                "analyzer": "lucene.keyword"
+              }
+            ],
+            "date": [
+              {
+                "type": "date"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
