@@ -1,0 +1,11 @@
+Country,ISO,Region,Total_Relations,Active_Relations,Avg_Strength,Alliances,Trade,Sanctions,Rivalries,Conflicts
+United States,US,North America,7,6,8.6,4,1,1,1,0
+Russia,RU,Europe,6,6,8.5,2,0,2,0,1
+China,CN,Asia,6,3,7.8,2,0,0,3,1
+Germany,DE,Europe,5,4,8.2,2,1,1,0,0
+Iran,IR,Middle East,5,4,7.4,0,1,1,0,1
+Ukraine,UA,Europe,4,4,9,1,0,0,0,1
+India,IN,Asia,4,3,7,0,1,0,1,1
+Israel,IL,Middle East,4,4,8.5,1,0,0,0,2
+Saudi Arabia,SA,Middle East,4,1,6.5,0,2,0,0,1
+North Korea,KP,Asia,4,4,8,1,0,0,1,1

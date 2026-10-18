@@ -225,6 +225,27 @@ $unwind events
 
 ---
 
+## 📊 Tableau Dashboard
+
+The outputs of the three aggregation pipelines are also visualised in a Tableau dashboard, so a non-technical reader can see the findings without reading the queries.
+
+![GeoLink Vault Tableau dashboard](tableau/dashboard.png)
+
+| Sheet | Built from | What it shows |
+| --- | --- | --- |
+| Most Connected Countries | Pipeline 1 | Relationship count per country, coloured by region |
+| Conflict Risk by Region | Pipeline 2 | Composite risk score per region (Middle East highest at 28.8) |
+| Events Over Time | Pipeline 3 | Monthly event count, stacked by event type |
+
+**Files** (in [`tableau/`](tableau/)):
+- `GeoLink_Vault_Dashboard.twb`: the Tableau workbook (opens in Tableau Public or Desktop)
+- `geolink_dashboard_data.csv`: the data source the workbook reads; keep it in the same folder as the `.twb`
+- `data/`: the raw output of each aggregation pipeline as a separate CSV
+
+Data reflects the seed dataset (10 countries, 49 relations, 19 events).
+
+---
+
 ## 📋 API Endpoints
 
 ```

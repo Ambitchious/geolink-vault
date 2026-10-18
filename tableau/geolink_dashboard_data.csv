@@ -1,0 +1,34 @@
+Chart,Item,Value,Group,Date
+Most Connected Countries,United States,7,North America,
+Most Connected Countries,Russia,6,Europe,
+Most Connected Countries,China,6,Asia,
+Most Connected Countries,Germany,5,Europe,
+Most Connected Countries,Iran,5,Middle East,
+Most Connected Countries,Ukraine,4,Europe,
+Most Connected Countries,India,4,Asia,
+Most Connected Countries,Israel,4,Middle East,
+Most Connected Countries,Saudi Arabia,4,Middle East,
+Most Connected Countries,North Korea,4,Asia,
+Conflict Risk by Region,Middle East,28.8,Middle East,
+Conflict Risk by Region,Europe,19,Europe,
+Conflict Risk by Region,Asia,16.5,Asia,
+Conflict Risk by Region,North America,0,North America,
+Events Over Time,Manipur Ethnic Violence — State Under Curfew,1,conflict,2023-05-03
+Events Over Time,Saudi Arabia Cuts Oil Production 1 Million BPD,1,economic,2023-07-03
+Events Over Time,NATO Defense Spending Summit,1,diplomatic,2023-07-11
+Events Over Time,US-China Trade Tariff Escalation,1,economic,2023-08-15
+Events Over Time,Hamas Attack — October 7 Massacre,1,conflict,2023-10-07
+Events Over Time,IDF Ground Invasion of Gaza Begins,1,conflict,2023-10-27
+Events Over Time,Zaporizhzhia Nuclear Plant Security Alert,1,humanitarian,2023-11-19
+Events Over Time,India-China Galwan Valley Disengagement,1,diplomatic,2024-01-12
+Events Over Time,Drone Attack on Moscow Oblast,1,conflict,2024-01-18
+Events Over Time,South China Sea FONOP Challenge,1,diplomatic,2024-02-08
+Events Over Time,Battle of Avdiivka — City Falls to Russian Forces,1,conflict,2024-02-17
+Events Over Time,Germany Approves Taurus Missile Debate,1,political,2024-03-08
+Events Over Time,Missile Strike on Kyiv Infrastructure,1,conflict,2024-03-22
+Events Over Time,Iran Launches 300+ Drones & Missiles at Israel,1,conflict,2024-04-13
+Events Over Time,Iran Launches Strike Package at Israel,1,conflict,2024-04-13
+Events Over Time,"Israel Retaliatory Strike on Isfahan, Iran",1,conflict,2024-04-19
+Events Over Time,Russian Forces Launch Offensive in Kharkiv Oblast,1,conflict,2024-05-10
+Events Over Time,PLA Live-Fire Exercises Around Taiwan Strait,1,conflict,2024-05-23
+Events Over Time,North Korea Tests Hwasong-18 ICBM,1,conflict,2024-11-05

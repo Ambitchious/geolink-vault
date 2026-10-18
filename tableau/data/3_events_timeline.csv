@@ -1,0 +1,20 @@
+Date,Month,Country,Region,Event_Type,Title,Fatalities,Severity
+2023-05-03,2023-05,India,Asia,conflict,Manipur Ethnic Violence — State Under Curfew,180,8
+2023-07-03,2023-07,Saudi Arabia,Middle East,economic,Saudi Arabia Cuts Oil Production 1 Million BPD,0,6
+2023-07-11,2023-07,United States,North America,diplomatic,NATO Defense Spending Summit,0,3
+2023-08-15,2023-08,United States,North America,economic,US-China Trade Tariff Escalation,0,7
+2023-10-07,2023-10,Israel,Middle East,conflict,Hamas Attack — October 7 Massacre,1200,10
+2023-10-27,2023-10,Israel,Middle East,conflict,IDF Ground Invasion of Gaza Begins,500,10
+2023-11-19,2023-11,Ukraine,Europe,humanitarian,Zaporizhzhia Nuclear Plant Security Alert,0,8
+2024-01-12,2024-01,India,Asia,diplomatic,India-China Galwan Valley Disengagement,0,5
+2024-01-18,2024-01,Russia,Europe,conflict,Drone Attack on Moscow Oblast,0,5
+2024-02-08,2024-02,China,Asia,diplomatic,South China Sea FONOP Challenge,0,5
+2024-02-17,2024-02,Ukraine,Europe,conflict,Battle of Avdiivka — City Falls to Russian Forces,300,10
+2024-03-08,2024-03,Germany,Europe,political,Germany Approves Taurus Missile Debate,0,4
+2024-03-22,2024-03,Russia,Europe,conflict,Missile Strike on Kyiv Infrastructure,8,8
+2024-04-13,2024-04,Israel,Middle East,conflict,Iran Launches 300+ Drones & Missiles at Israel,0,9
+2024-04-13,2024-04,Iran,Middle East,conflict,Iran Launches Strike Package at Israel,0,10
+2024-04-19,2024-04,Israel,Middle East,conflict,"Israel Retaliatory Strike on Isfahan, Iran",0,8
+2024-05-10,2024-05,Russia,Europe,conflict,Russian Forces Launch Offensive in Kharkiv Oblast,45,9
+2024-05-23,2024-05,China,Asia,conflict,PLA Live-Fire Exercises Around Taiwan Strait,0,7
+2024-11-05,2024-11,North Korea,Asia,conflict,North Korea Tests Hwasong-18 ICBM,0,7
